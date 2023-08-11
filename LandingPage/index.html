@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Landing Page</title>
+</head>
+
+<body>
+	<nav>
+		<div class="heading">Landing Page</div>
+		<span class="sideMenuButton"
+			onclick="openNavbar()">
+			☰
+		</span>
+
+		<div class="navbar">
+			<ul>
+				<li><a href="#Home">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Sign Up</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Side navigation bar for
+		responsive website -->
+	<div class="sideNavigationBar"
+		id="sideNavigationBar">
+		<a href="#" class="closeButton"
+			onclick="closeNavbar()">
+			
+		</a>
+		<a href="#">Home</a>
+		<a href="#">About</a>
+		<a href="#">Sign Up</a>
+	</div>
+
+	<!-- Content -->
+	<div class="line" id="Home">
+		<div class="side1">
+			<h1>Vintage Gibson SG</h1>
+		</div>
+		<div class="side2">
+			<img src=
+"images/guitar1.jpg"
+				 class="corners"/>
+		</div>
+	</div>
+
+	<section class="about" id="My Projects">
+		<div class="content">
+			<div class="title">
+				<span>Description</span>
+			</div>
+			<div class="boxes">
+				<div class="box">
+					<div class="topic">
+						<a href="" target="_blank">
+							NECK
+						</a>
+					</div>
+					<img src=
+                        "https://themusicemporium.com/cdn/shop/products/ES23078-5_1800x1800.jpg?v=1679775333.png"
+                                        width="250" class="pics">
+                    <p>                   
+						One-piece mahogany neck with nicely aged cream binding & tortoise side-dots.
+                        The profile of the neck gets chunkier as you work your way up the fretboard.
+                        Beautiful rosewood fingerboard with mother of pearl trapezoid inlays. 
+                        Built with Kluson Deluxe tuners. 1 9/16" nut width; 24 3/4" scale length.
+					</p>
+				</div>
+				<div class="box">
+
+					<div class="topic">
+						<a href="" target="_blank">
+							BODY
+						</a>
+					</div>
+                    <img src=
+                        "https://themusicemporium.com/cdn/shop/products/ES23078-8_1800x1800.jpg?v=1679775331.png"
+                                        width="250" class="pics">
+					<p>
+						Solid, one-piece mahogany body with Maestro tremolo tailpiece & ABR-1 bridge. 
+						4-ply, large black pickguard is in great shape with glossy look.Guitar weighs 7 lbs 15 oz.
+					</p>
+				</div>
+
+				<div class="box">
+					<div class="topic">
+						<a href="" target="_blank">
+							PICKUPS
+						</a>
+					</div>
+					<img src=
+                        "https://themusicemporium.com/cdn/shop/products/ES23078-6_1800x1800.jpg?v=1679775330.png"
+                                        width="250" class="pics">
+					<p>
+						Gibson Pat No humbuckers.
+						Bridge - 7.32K ohms; Neck - 7.44K ohms.
+						Dual volume & tone controls with black "top hat" knobs; 3-way toggle switch.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="contact" id="contact">
+		<div class="content">
+			<div class="title"><span>Register To Pre-Order</span></div>
+			<div class="contactMenu">
+				<div class="input1">
+					<div class="label1">Your Name</div>
+					<div class="input2">
+						<input type="text"
+							placeholder="Enter your Name here">
+					</div>
+					<div class="label1">
+						<label>Your Email</label>
+					</div>
+					<div class="input2">
+						<input type="text"
+							placeholder="Enter your Email here">
+					</div>
+					<div class="label1">
+						<label>Your Password</label>
+					</div>
+					<div class="input2">
+						<input type="text"
+							placeholder="Enter your Password here">
+					</div>
+					<div class="button">
+						<button>Register</button>
+					</div>
+				</div>
+				<div class="input3">
+					<div class="rightside1">
+						<div class="title1">
+							<span>
+								Contact Us
+							</span>
+						</div>
+						<div class="content1">
+							A-143, 9th Floor, Manyata
+							Corporate Tower, Sector-13,
+							Bengaluru, Karnataka - 562143
+						</div>
+						<div class="title1">
+							<span>More Information</span>
+						</div>
+						<div class="content1">
+							In many ways, 1968 marks the end of what vintage guitar lovers consider the Golden Era of Gibson electrics.
+							There's generally some truth to that, as ownership changed hands not too long after '68, 
+							bringing on many changes that would impact the company's storied and frankly legendary history. 
+							There are always exceptions of course, but in looking at the arc of Gibson's success, 
+							1968 marked a pivotal year while delivering some excellent guitars. But now we are bringing back this beautiful guitar from the vintage collection. 
+							This is a chance for all the music lovers to own this guitar now. 
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Footer section -->
+	<footer>
+		<div class="footer">
+			<span>
+				Created By Nishad Babu Sulikeri
+			</span>
+		</div>
+	</footer>
+	<script src="index.js"></script>
+</body>
+
+</html>
